@@ -1,0 +1,38 @@
+body {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    position: relative;
+    border: 1px solid black;
+    padding: 25px;
+    border-radius: 5px;
+    box-sizing: border-box; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label, input, button {
+    margin: 10px 0;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+label, input {
+    width: 80%; 
+}
+
+button {
+    width: fit-content; /* Adjust the width to the content of the button */
+    margin: 10px auto; /* Center the button and add margin at the top */
+    position: relative; /* Use static instead of relative to avoid conflicts */
+}
+
+
