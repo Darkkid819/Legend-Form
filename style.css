@@ -30,9 +30,9 @@ label, input {
 }
 
 button {
-    width: fit-content; /* Adjust the width to the content of the button */
-    margin: 10px auto; /* Center the button and add margin at the top */
-    position: relative; /* Use static instead of relative to avoid conflicts */
+    width: fit-content; 
+    margin: 10px auto; 
+    position: relative;
 }
 
 
